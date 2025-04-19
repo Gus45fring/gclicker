@@ -18,7 +18,7 @@ int main()
         {
             button = !button;
             Sleep(200);
-            std::cout << (button ? "Right" : "Left") << std::endl;
+            std::cout << (button ? "RButton" : "LButton") << "\r";
         }
 
         MU = button ? MOUSEEVENTF_RIGHTUP : MOUSEEVENTF_LEFTUP;
